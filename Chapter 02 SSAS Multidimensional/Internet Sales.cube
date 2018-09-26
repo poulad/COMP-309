@@ -400,6 +400,16 @@
         </Attribute>
       </Attributes>
     </Dimension>
+    <Dimension dwd:design-time-name="0d127bef-b6e8-4725-8738-65539a810bf7">
+      <ID>Dim Internet Sales Order</ID>
+      <Name>Dim Internet Sales Order</Name>
+      <DimensionID>Dim Internet Sales Order</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e4913a0c-1bbd-4aa0-817d-44df5edd1e73">
+          <AttributeID>Sales Order Number</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
   </Dimensions>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="8aa339f3-8db0-401e-9522-547d6549417c">
@@ -686,6 +696,32 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="26ce6619-2b21-4f24-b078-e8c535f539ef">
                     <TableID>dbo_FactInternetSales</TableID>
                     <ColumnID>DueDateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="dc4be1c0-89d5-43f7-a0af-b63fbfb48ef1">
+          <CubeDimensionID>Dim Internet Sales Order</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b2afb635-36fb-4166-a39e-e1f01066e935">
+              <AttributeID>Sales Order Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9729cb1b-7187-4255-b91f-3093b0293e33">
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec64a9cd-8ba8-4b06-aa4e-7025c9b70357">
+                    <TableID>dbo_FactInternetSales</TableID>
+                    <ColumnID>SalesOrderNumber</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d0cd0876-6cf8-4387-9eaf-c25842f87565">
+                  <DataType>UnsignedTinyInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c0bb935e-bfc0-407b-b8bd-13d35abd5619">
+                    <TableID>dbo_FactInternetSales</TableID>
+                    <ColumnID>SalesOrderLineNumber</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>

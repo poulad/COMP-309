@@ -43,6 +43,10 @@
       <Name>Product.dim</Name>
       <FullPath>Product.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Internet Sales Order.dim</Name>
+      <FullPath>Dim Internet Sales Order.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
