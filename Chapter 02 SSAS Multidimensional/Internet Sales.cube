@@ -311,6 +311,12 @@
         <Attribute dwd:design-time-name="b424d898-f9a3-43fe-9944-5dfcd50a5b84">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="94934795-5f46-4c52-884a-88d74a3cfcb1">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93cce7c3-3a0d-4e9c-9277-2a57b24787ab">
+          <AttributeID>Month Number Of Year</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="a0e4410e-4cf2-4f45-ae43-c73836f8db24">
@@ -370,6 +376,12 @@
         <Attribute dwd:design-time-name="2d160637-d122-4305-9cf3-0d015a062ab4">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="eb3c84d6-ad94-47c1-b913-36716bec2e67">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f429ea5b-ebc1-489d-81aa-05fa1bda9502">
+          <AttributeID>Month Number Of Year</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="ffb01c6a-e963-4a1c-b195-f76859e0060b">
@@ -379,6 +391,12 @@
       <Attributes>
         <Attribute dwd:design-time-name="5356e27b-5fe9-4557-ac0e-8b9340144648">
           <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd689c5c-9db0-43da-ace9-1c04baab68ea">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fae81c11-5736-4f01-aeb7-4da6fff50d75">
+          <AttributeID>Month Number Of Year</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
